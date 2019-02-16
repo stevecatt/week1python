@@ -1,6 +1,11 @@
 array = [1,2,3,4,5]
 names = ["Alex","John","Mary","Steve","John", "Steve"]
 
+
+print (f"The largest string in the array is : {max(names)} " )
+print (f"The smallest string in array is {min(names)} ")
+
+
 array = array + array 
 print (array)
 
@@ -14,7 +19,7 @@ def remove_dup():
             names_undup.append(name)
             #print(names_undup)
 remove_dup()
-print(names_undup)   
+print(f"The list of unduplicated names is {names_undup} ")   
 
 # check for missing value
 
@@ -24,9 +29,9 @@ for i in range(0, len(check)):
     #print (check[i])
     #print (numbers[i])
     if check[i] == numbers[i]:
-        print("ok")
+        print(f"Ok that number {check[i]} is there")
     elif check[i] != numbers[i]:
-        print(f"{check[i]} is missing")
+        print(f"Number {check[i]} is missing")
         break
 
 
@@ -38,7 +43,7 @@ max= 0
 for i in a:
     if i > max:
          max=i
-print(max)
+print(max) 
 
 
 a=[1,2,3,4,6,7,99,88,999]
@@ -50,7 +55,7 @@ print(min)
 
 
 
-for name in names: 
+for name in names:
     #print(len(name), name)
     length = {'le': len(name), 'name': name }
     #print(length)

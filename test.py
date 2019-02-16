@@ -38,3 +38,6 @@ for i in a:
     if i <= min:
          min=i
 print(min)
+
+
+# this is a test file 

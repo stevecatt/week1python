@@ -10,16 +10,17 @@ def view_all_tasks():
         #for key,value in task.items():
         # print out the index number of the task in user type stuff by adding 1 
         # end "=" keeps it on the same line 
-        print (f"{tasks.index(task) + 1 }", end=" " )
+        # prints tasks by index +1 then task by key 
+        print (f"{tasks.index(task) + 1 } - {task['title']} - {task['prior']}")
         # now we have to step through the keys 
-        for key in task.keys():
+        #for key in task.keys():
             #print(key)
 
-            print("-" , task[key], end=" ")
+            #print("-" , task[key], end=" ")
             #print(key, value)
             #print(key)
             #print(value)
-        print("\n")
+        #print("\n")
 
 
 
@@ -40,8 +41,6 @@ def del_task():
 
     elif task_del <= len(tasks):
          del tasks[task_del]
-
-   
     
 
 
@@ -104,9 +103,5 @@ while  user_input != "q":
            #     print (x)
 
        
-        #print(task(key))
-        
-
-
-
+        #print(task(key)
 

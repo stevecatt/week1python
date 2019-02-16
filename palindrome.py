@@ -14,7 +14,7 @@ while length>0:
 
 #printing the revesre word out to see what it looks like
 
-print (word_rev)
+#print (word_rev)
 
 if test_word == word_rev:
     print(f"Weve got a winner {word} is palindromic")

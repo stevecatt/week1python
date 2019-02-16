@@ -1,7 +1,7 @@
 number = input("Please enter a whole number: ")
 
 
-#test if number is divisible by both 3 % 5
+#test if number is divisible by both 3 & 5
 if int(number) % 3 == 0 and int(number) % 5 == 0:
     print("FizzBuzz")
 
